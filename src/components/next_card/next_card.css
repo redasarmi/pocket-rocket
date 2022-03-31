@@ -1,7 +1,8 @@
-body{
+.next-card {
     font-family:Oxygen, sans-serif;
-    margin:2rem;
+    margin: 2rem;
 }
+
 .next-card{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
