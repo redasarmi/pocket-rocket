@@ -1,16 +1,16 @@
-.next-card {
+.generic-card {
     font-family:Oxygen, sans-serif;
     margin: 2rem;
 }
 
-.next-card{
+.generic-card{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     gap:2rem;
     justify-content: center;
 }
 
-.next-card__body{
+.generic-card-body{
     overflow: hidden;
     box-shadow:0 2px 20px #61dafb;
     border-radius:0.2rem;
@@ -21,16 +21,16 @@
     transition:transform 200ms ease-in;
 }
 
-.next-card__img{
+.generic-card-img{
     height: 12rem;
     width: 100%;
     object-fit:cover;
 }
 
-.next-card__title{
+.generic-card-title{
     padding: 1rem;
 }
 
-.next-card__content{
+.generic-card-content{
     padding:0 1rem;
 }
